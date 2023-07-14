@@ -1,0 +1,15 @@
+GET http://localhost:3081/api/workouts
+
+###
+DELETE  http://localhost:3081/api/workouts/64aff28c1c8276901df8bbe7
+
+
+###
+POST http://localhost:3081/api/workouts
+Content-Type: application/json
+
+{
+    "title": "title",
+    "reps": 3437,
+    "load": 4324    
+}

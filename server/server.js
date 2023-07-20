@@ -16,6 +16,9 @@ app.use(cors())
 const workoutRoutes = require('./routes/workouts')
 app.use('/api/workouts/', workoutRoutes)
 
+const userRoutes = require('./routes/users')
+app.use('/api/users', userRoutes)
+
 app.listen(PORT, () => {
     console.log(`Server is listening on port: ${PORT}`)
 })

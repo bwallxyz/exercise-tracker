@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(150, 150, 150);
   margin:0;
   font-family: "Poppins";
 }
@@ -105,3 +105,21 @@ div.error {
   margin: 20px 0;
 }
 
+
+/*NAV BAR*/
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 14px;
+}
